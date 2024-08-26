@@ -1,0 +1,138 @@
+## Example Config file
+baseURL: "https://example.com"
+theme: "terminalcv"
+title: "jmsu.me"
+
+params:
+  version: '2.0.0'
+  description: "Hi! You finally found here. This is a command line of all jmsu's site, type help to take a look what you can do :) and what site you can found!"
+  prompt:
+    core:
+      text: "user@jmsu.me"
+      color: 'pink'
+      before: '['
+      beforeColor: 'red'
+      after: '\]'
+      afterColor: 'red'
+      # separator: '-'
+    separator:
+      text: "-"
+      # color: 
+    path: 
+      before: '['
+      beforeColor: 'red'
+      text: '~/jmsu'
+      color: 'blue'
+      after: '\]'
+      afterColor: 'red'
+    extra:
+      text: ": "
+      color: 'orange'
+
+  # promptColor: grey
+  # promptSimbols: ":~$"
+  # promptSimbolsColor: grey
+  # startxLocation: https://example.com
+  useLess: true
+  exitLocation: 'blog.jmsu.me'
+  source: true
+  #use a ‎ (blank character) if your first character of the ascii art is a whitespace
+  greeting: | 
+    ‎
+           __  .___  ___.      _______. __    __     .___  ___.  _______ 
+          |  | |   \/   |     /       ||  |  |  |    |   \/   | |   ____|
+          |  | |  \  /  |    |   (----`|  |  |  |    |  \  /  | |  |__   
+    .--.  |  | |  |\/|  |     \   \    |  |  |  |    |  |\/|  | |   __|  
+    |  `--'  | |  |  |  | .----)   |   |  `--'  |  __|  |  |  | |  |____ 
+    \______/  |__|  |__| |_______/     \______/  (__)__|  |__| |_______|
+
+    Hi! You finally found here. 
+    
+    This is a command line of all jmsu's site.
+    
+    Take a look what you can do :) and what site you can found! Enjoy Plz.
+
+    Type 'help' for a list of available commands
+
+
+  whois: 
+    # settings:
+    #   useLess: true
+    details:
+      name: "Jm Su"
+      location: "Somewhere"
+      email: "huigz512@gmail.com"
+      homelink: "https://blog.jmsu.com"
+      description: |
+              SKKU Sociology Student
+
+  social:
+    # settings:
+    #   useLess: true
+    #   hideName: true
+    details:
+    - name: "github"
+      url: "https://github.com/Huigz"
+
+  work:
+    # settings:
+    #   useLess: true
+    details:
+    - jobTitle: SKKU SomC Lab TA
+      color: red
+      company: '-' 
+      location: Seoul
+      date: August 2024 - Present
+      description: SKKU Sociology 
+
+  education:
+    details:
+    - courseName: SKKU Sociology -> Master program
+      color: red
+      date:  2022 - now
+
+    - courseName: SKKU Sociology & Software -> Bachelor
+      date: 2018 - 2022
+      #description: There is no need for description
+
+  skills:
+    settings:
+      useLess: true
+    details:
+    - name: Python "Pandas, Scrapy, Django, Flask"
+      color: red
+      percentage: 90
+
+    - name: Social Network Analysis
+      percentage: 40
+      #description: or you can leave it comented   
+
+    - name: Sociology theroies
+      color: blue
+      percentage: 80
+      #description: Skill names can have colors too
+
+  languages:
+    # settings:
+    #   useLess: true
+    details:
+    - name: Chinese
+      color: Blue
+      percentage: 100
+      #description: 
+
+    - name: Korean
+      color: Blue
+      percentage: 70
+  
+  misc: 
+    commandName: sites
+    title: "all of jmsu.me sites"
+    titleColor: teal
+    content: |
+          My blog (Lang:Chinese)
+            - https://blog.jmsu.me
+          Sociology Theory Graden (Lang:Chinese)
+            - https://sociology.jmsu.me
+
+    contentColor: orange

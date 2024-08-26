@@ -1,5 +1,5 @@
 ## Example Config file
-baseURL: "https://example.com"
+baseURL: "https://www.jmsu.me"
 theme: "terminalcv"
 title: "jmsu.me"
 
@@ -33,8 +33,7 @@ params:
   # promptSimbols: ":~$"
   # promptSimbolsColor: grey
   # startxLocation: https://example.com
-  useLess: true
-  exitLocation: 'blog.jmsu.me'
+  exitLocation: 'https://blog.jmsu.me'
   source: true
   #use a ‎ (blank character) if your first character of the ascii art is a whitespace
   greeting: | 
